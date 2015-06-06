@@ -27,6 +27,7 @@ data$Time <- strptime(paste(data$Date, data$Time), format = "%d/%m/%Y %H:%M:%S")
 data$Date <- as.Date(data$Date, format = "%d/%m/%Y")
 data$Global_active_power <- as.numeric(data$Global_active_power)
 
+View(data)
 #----------------------------------------------------------------------------------------
 
 #Making the plot 1
